@@ -23,9 +23,8 @@ value: |
  
 Thanks for taking the time to fill out this bug report!
  
-- type: input id:
- 
-contact
+- type: input
+  id: contact
  
 attributes:
  
