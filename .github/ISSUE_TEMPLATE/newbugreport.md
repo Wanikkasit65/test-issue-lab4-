@@ -11,11 +11,11 @@ projects: ["octo-org/1", "octo-org/44"]
  
 assignees:
  
-octocat
+- octocat
  
 body:
  
-type: markdown
+- type: markdown
  
 attributes:
  
@@ -23,7 +23,7 @@ value: |
  
 Thanks for taking the time to fill out this bug report!
  
-type: input id:
+- type: input id:
  
 contact
  
@@ -39,7 +39,7 @@ validations:
  
 required: false
  
-type: textarea
+- type: textarea
  
 id: what-happened
  
@@ -58,7 +58,8 @@ required: true
  
 type: dropdown
  
-id: version attributes:
+id: version 
+attributes:
  
 label: Version
  
@@ -66,9 +67,9 @@ description: What version of our software are you running?
  
 options:
  
-1.0.2 (Default)
+- 1.0.2 (Default)
  
-1.0.3 (Edge)
+- 1.0.3 (Edge)
  
 default: 0
  
@@ -76,27 +77,27 @@ validations:
  
 required: true
  
-type: dropdown
+- type: dropdown
  
 id: browsers
  
 attributes:
  
-I label: What browsers are you seeing the problem on?
+label: What browsers are you seeing the problem on?
  
 multiple: true
  
 options:
  
-Firefox
+- Firefox
  
-Chrome
+- Chrome
  
-Safari
+- Safari
  
-Microsoft Edge
+- Microsoft Edge
  
-type: textarea
+- type: textarea
  
 id: loga
  
@@ -108,7 +109,7 @@ description: Please copy and paste any relevant log output. This will be automat
  
 render: shell
  
-type: checkboxes
+- type: checkboxes
  
 id: terms
  
@@ -120,7 +121,7 @@ description: By submitting this issue, you agree to follow our [Code of Conduct)
  
 options:
  
-Label: I agree to follow this project's Code of Conduct
+- Label: I agree to follow this project's Code of Conduct
 required: true
 
 ---
