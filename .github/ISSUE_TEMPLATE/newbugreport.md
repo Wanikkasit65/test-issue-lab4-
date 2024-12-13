@@ -5,7 +5,7 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
-  - wanikkasit65
+  - octocat
 body:
   - type: markdown
     attributes:
