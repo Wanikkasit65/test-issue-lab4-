@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a new feature for this project.
+labels: enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+        
+  - type: input
+    id: name
+    attributes:
+      label: What is your name?
+      placeholder: ex. Sertha Taweewattana
+
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Type of request?
+      options:
+        - Bug Report
+        - New Feature
+        - Improvement
+      
+  - type: dropdown
+    id: operating_system
+    attributes:
+      label: What is the OS which you want to suggest?
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+
+  - type: textarea
+    id: suggestion_details
+    attributes:
+      label: What are the details of your suggestion?
+      description: Explain what you want
+      placeholder: Feature details!
+
+
+
